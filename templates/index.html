@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>AI Text Summarizer</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🤖 AI Text Summarizer</h1>
+
+<div class="glass">
+
+<textarea
+id="inputText"
+placeholder="Paste text here..."
+></textarea>
+
+<div class="stats">
+
+<span id="wordCount">Words: 0</span>
+
+<span id="charCount">Characters: 0</span>
+
+</div>
+
+<div class="buttons">
+
+<button id="summarizeBtn">
+Summarize
+</button>
+
+<button id="clearBtn">
+Clear
+</button>
+
+<button id="copyBtn">
+Copy
+</button>
+
+<button id="downloadBtn">
+Download
+</button>
+
+</div>
+
+<div id="loader" class="loader hidden"></div>
+
+<h2>Summary</h2>
+
+<div id="summaryBox"></div>
+
+<h2>Analytics</h2>
+
+<div id="analytics"></div>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
