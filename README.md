@@ -1,5 +1,12 @@
 # AI Text Summarizer
 
+## Output
+
+<p align="center">
+  <img src="output.png" width="800">
+</p>
+
+
 An AI-powered Text Summarizer web application built using Flask, Transformers, NumPy, Scikit-Learn, HTML, CSS, and JavaScript. The application generates concise summaries from lengthy text, extracts important keywords using TF-IDF, and provides useful text analytics through an interactive and modern user interface.
 
 ## Features
